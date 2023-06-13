@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: black;
+}
+header{
+    height:30vh ;
+    width: 100vw;
+    background:linear-gradient(rgba(0, 0, 0, 0.425), rgb(0, 0, 0)),url(images/hed.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+button{
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid white;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 6vh;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+}
+.imge{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    width: 45%;
+    font-size: 4vw;
+    margin: 2px;
+}
+.imge img{
+    width: 100%;
+    aspect-ratio: 16/15;
+}
+.imge p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1vh;
+    text-align: center;
+}
+section{
+   margin: 10vh 0 0 0;
+}
+.imge a{
+   
+    color: rgb(255, 8, 8);
+    text-decoration: none;
+}
+
+/* apetizers */
+.apetizers{
+    margin-left: 20px;
+}
+.apetizers h3{
+ color: red;
+ font-family: 'Courier New', Courier, monospace;
+ text-transform: capitalize;
+}
+.details{
+    margin: 10px;
+    width: 200px;
+}
+.details h4{
+    color: rgb(255, 255, 255);
+}
+.details p{
+    color: rgb(173, 169, 169);
+}
+/*testimoni */
+.testimoni{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimoni h3{
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+letter-spacing: 2px;
+padding: 10px;
+
+}
+.testimoni h2{
+    color: red;
+    font-size: larger;
+}
+.coments{
+    width: 200px;
+    margin: 10px;
+}
+.coments h4{
+    margin: 5px;
+}
+.testimoni img{
+    border-radius: 20px;
+}
+/* footer */
+.footer{
+    height:70vh ;
+    width: 100vw;
+    background:linear-gradient(rgba(0, 0, 0, 0.425), rgb(0, 0, 0)),url(images/head.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.extra{
+   background-color: white;
+    width: 50vw;
+    height:20vh ;
+     margin: 10px;
+     text-align: center;
+}
+.extra h5{
+   color: red;
+}
